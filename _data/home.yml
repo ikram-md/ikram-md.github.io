@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: Recommender system with memory-based filtering
-    url: 
+    url:
     desc: This is my Bachelor's graduation project
 
   - title: House prices predector api using FastAPI
@@ -19,18 +19,17 @@ project_entries:
 
 old_project_entries:
   - title: iCampus
-    url: 
-    desc: Digital campus in your hands 
+    url:
+    desc: Digital campus in your hands
     highlight: NEW
 
 footer_entries:
-  - title: Messadi's homepage
-    url: 
+  - title: Messadi's Business card
+    url: https://github.com/ikram-md/git-practice1/releases/download/v-1-8/card.pdf
 
 misc_entries:
   - title: this is an example vertical list
     url: false
-
 
   - title: Find me on Github
     url: false
@@ -40,6 +39,3 @@ misc_entries:
 
       - title: originally built for abhinav's homepage
         url: https://github.com/ikram-md/git-practice1.git
-
-
-
