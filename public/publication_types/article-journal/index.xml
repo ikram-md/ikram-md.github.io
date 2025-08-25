@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Article-Journal | Ikram MESSADI</title>
+    <link>https://example.com/publication_types/article-journal/</link>
+      <atom:link href="https://example.com/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Article-Journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_421407e82ff53b6b.png</url>
+      <title>Article-Journal</title>
+      <link>https://example.com/publication_types/article-journal/</link>
+    </image>
+    
+  </channel>
+</rss>
