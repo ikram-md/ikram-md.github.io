@@ -1,20 +1,20 @@
 ---
 # Display name
-title: 吳健雄
+title: Ikram MESSADI
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: إكرام
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Ikram
+last_name: MESSADI
 
 # Pronouns (optional)
 pronouns: she/her
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🏔️
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,92 +23,88 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: IMT Nord Europe
+    url: https://imt-nord-europe.fr/en/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:ikram.messadi@imt-nord-europe.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/ikram-md
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: www.linkedin.com/in/ikram-m-a68244227/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
-
+    url: https://scholar.google.com/citations?user=FbUJ7YwAAAAJ&hl=en&oi=ao
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computer vision
+  - Time-series
+  - Ethical A.I
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc in Data Science
+    institution: École Centrale de Lille/Lille University
+    date_start: 2023-09-01
+    date_end: 2025-09-18
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Advanced Linear algerbra, Probabilities, Statistics
+      - Computer vision, Bayesian learning, Statistical Learning
+      - NLP, Reinforcement learning, Fairness & privacy presevening ML
+  - area: BSc Computer Science
+    institution: University of Oran 1
+    date_start: 2019-09-01
+    date_end: 2022-06-21
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Data Science intern
+    company_name:
+      - IMT Nord Europe
+      - 3W Well With Waves
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    company_url : ''
+    date_start: 2025-04-01
+    date_end: 2025-09-18
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Conducted research on muscle fatigue characterization using surface electromyography (sEMG) signals for musculoskeletal disorder prevention.
+      - Designed and implemented an end-to-end preprocessing pipeline (filtering, MVC normalization padding sliding windows) for large-scale sEMG datasets.
+      - Adapted and extended Time-series Masked Autoencoder to extract high-level latent representations from noisy biomedical signals.
+      - Combined deep learning feature representations with handcrafted frequency-domain features to perform short window sEMG forecasting.
+      - Developed a modular and reusable codebase with MLflow integration for experiment tracking versioning  and reproducibility.
+      -  Collaborated with 3W Well With Waves on ergonomic applications providing AI driven insights for adaptive lead apron design to reduce muscle fatigue in healthcare professionals.    
+  - position: Data Science intern
+    company_name: IMT Nord Europe
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-05-18
+    date_end: 2024-08-18
+    summary: |2-
+      Responsibilities include:
+      - Project entitled “risk assessment for autonomous train shuttles”
+      - Investigated the state of the art and handled the training and evaluation of scene graph generators.
+      - Handled data processing and built and pipeline.
+      - Implemented a Gaussian approach to add additional risk features.
+  - position: Backend software developer
+    company_name: Smartinia
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-10-01
+    date_end: 2023-10-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Designed features & business logic using UML modeling for a SAAS e-commerce.
+      - Worked with large scale data of an e-commerce system.
+      - Built and integrated micro-services and business logic . Used : NestJs, Typeorm
+      - Collaborated with front-end developers and weekly agile meetings.
+      - Utilized messages brokers and handled event management.
+      - Maintained and improved existing back-end system as well as monitored and troubleshooted application performance
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -123,7 +119,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Pytorch
         description: ''
         percent: 40
         icon: circle-stack
@@ -147,9 +143,11 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Arabic
+    percent: 100
+  - name: French
+    percent: 95
+  - name: Spanish
     percent: 25
 
 # Awards.
@@ -186,4 +184,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am MESSADI Ikram, a Junior Data scientist & Researcher in Machine learning/Data Science. I am soon to be a Master's graduate in Data science. My research interests include computer vision, confidentiality and ethical AI and Deep learning applied to health. I am currently finishing a 6 months internship in IMT Nord Europe where I work on Deep learning applied on Time-series for muscle fatigue characterization.

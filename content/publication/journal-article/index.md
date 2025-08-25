@@ -1,4 +1,6 @@
 ---
+_build:
+  list: never
 title: "An example journal article"
 authors:
 - admin
@@ -56,7 +58,7 @@ links:
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

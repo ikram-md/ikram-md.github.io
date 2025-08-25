@@ -1,22 +1,23 @@
 ---
-title: 'An example conference paper'
+title: 'Image selective encryption analysis using mutual information in CNN based embedding space'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Robert Ford
+  - Ikram MESSADI
+  - Giulia CERVIA
+  - Vincent ITIER
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2025-08-04T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-08-12T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,16 +25,18 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *13th European Workshop on Visual Information Processing, Oct 2025, Valetta, Malta*
+publication_short: In *EUVIP*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: As digital data transmission continues to scale, concerns about privacy grow increasingly urgent - yet privacy remains a socially constructed and ambiguously defined concept, lacking a universally accepted quantitative measure. This work examines information leakage in image data, a domain where information-theoretic guarantees are still underexplored. At the intersection of deep learning, information theory, and cryptography, we investigate the use of mutual information (MI) estimators - in particular, the empirical estimator and the MINE framework - to detect leakage from selectively encrypted images. Motivated by the intuition that a robust estimator would require a probabilistic frameworks that can capture spatial dependencies and residual structures, even within encrypted representations - our work represent a promising direction for image information leakage estimation. 
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Cryptography and Security
+  - Computer vision
+  - Information Theory
 
 # Display this page in the Featured widget?
 featured: true
@@ -46,22 +49,22 @@ hugoblox:
 # Custom links
 links:
   - type: pdf
-    url: ""
+    url: https://imt-nord-europe.hal.science/hal-05204343v1/document
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: slides
-    url: https://www.slideshare.net/
+    url: ""
+  # - type: slides
+  #   url: https://www.slideshare.net/
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
-  - type: video
-    url: https://youtube.com
+    url: ""
+  # - type: video
+  #   url: https://youtube.com
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image Extracted from: [**Paper**](https://imt-nord-europe.hal.science/hal-05204343v1/document)'
   focal_point: ''
   preview_only: false
 
@@ -81,12 +84,12 @@ projects:
 slides: ""
 ---
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+{{% /callout %}} -->
 
-{{% callout note %}}
+<!-- {{% callout note %}}
 Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+{{% /callout %}} -->
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+<!-- Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

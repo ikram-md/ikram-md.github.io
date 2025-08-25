@@ -1,4 +1,6 @@
 ---
+_build:
+  list: never
 title: "An example preprint / working paper"
 authors:
 - admin
@@ -24,7 +26,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags:
 - Large Language Models
 
-featured: true
+featured: false
 
 hugoblox:
   ids:
